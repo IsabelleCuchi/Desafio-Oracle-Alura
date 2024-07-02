@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F3F5FC;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.logo img{
+    margin-top: 25px;
+    margin-left: 15px;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.copiartexto {
+    display: block;
+}
+
+.escreva_texto {
+    margin-top: 5rem;
+    margin-left: 13rem;
+    box-sizing: border-box;
+}
+
+#ponhaTexto {
+    width: 700px;
+    height: 400px;
+    box-sizing: border-box;
+    box-shadow: none;
+    font-size: 27px;
+    position: sticky;
+    border-style: none;
+    background-color: transparent;
+    color: rgba(10, 56, 113, 1);
+    overflow: hidden;
+}
+
+#ponhaTexto:focus {
+    outline: none;
+}
+
+.obs {
+    display: flex;
+    margin-top: 120px;
+    margin-right: 470px;
+    margin-bottom: 40px;
+    font-size: 14px;
+    color: #45565f;
+    justify-content: end;
+}
+
+#encripitando, #descripitando {
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(10, 56, 113, 1);
+    width: 328px;
+    height: 87px;
+    display: inline;
+    margin-right: 50px;
+    border-radius: 24px;
+    align-items: center;
+    line-height: 0%;
+    padding: 24px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+
+.botoes {
+    margin-left: 13rem;
+}
+
+#botaoCopiar {
+    background-color: #45565f(255, 255, 255);
+    box-shadow: 1px -1px 2px 2px #343a4075;
+    width: 328px;
+    height: 87px;
+    border-radius: 24px;
+    padding: 24px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.botaocopy {
+    margin-top: 6.9rem;
+}
+
+#descripitando {
+    color: #0a3871;
+    background-color: #d8dfe8;
+    border-color: #0a3871;
+}
+
+#areaDescripto {
+    width: 450px;
+    height: 944px;
+    padding: 20px;
+    font-size: 27px;
+    border-radius: 35px;
+    border-style: none;
+    margin-left: 100px;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    resize: none;
+}
+
+#areaDescripto:focus{
+    outline: none;
+}
+
+.descriptografar {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 80px;
+}
+
+.imagem_acima {
+    position: absolute;
+    padding: 3rem;
+    top: 9rem; 
+    left: 7rem; 
+    align-items: center;
+}
+
+.texto_acima {
+    padding: 1rem;
+    text-align: center;
+    margin-right: 3rem;
+}
+
+.texto_acima h4 {
+    color: #343A40;
+    font-size: 1.8rem;
+}
+
+.texto_acima p {
+    color: #495057;
+    font-size: 1.2rem;
+    text-align: center;
+    margin-top: 2rem;
+    margin-right: 1rem; 
+    margin-left: 2rem; 
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    text-decoration: underline;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-color: #0a3871;
+}
